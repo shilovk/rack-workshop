@@ -9,16 +9,16 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
+/*/tmp/*
 !/log/.keep
-!/tmp/.keep
+!/*/tmp/.keep
+/.log
 
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
+/*/tmp/pids/*
+!/*/tmp/pids/
+!/*/tmp/pids/.keep
 
 .byebug_history
 .idea
 .DS_Store
-/.log
